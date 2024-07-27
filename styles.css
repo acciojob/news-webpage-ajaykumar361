@@ -1,53 +1,53 @@
 /*  your css code here. If applicable */
-body{
-  background-color:#f5f5f5;
-  font-family: Sans-Serif;
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.header{
-  background-color: #011e29;
-  color:white;
-  text-align: center;
-  padding:20px 0;
-  margin-bottom:20px;
-  
+/* Style the header */
+.header {
+    background-color: #011e29;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-.container{
-  display: flex;
-  justify-content: center;
-  gap:20px;
-  padding:0 20px;
-}
-.latest-news-article{
-  background-color: white;
-  width: 30%;
-  padding:20px;
-  border-radius:10px;
-}
-.pictorial-news-section{
-  background-color: white;
-  width:60%;
-  padding:20px;
-  border-radius: 10px;
-  text-align: center;
+/* Style the latest news section */
+.latest-news-section {
+    background-color: #ffffff; /* Adjust based on image */
+    padding: 20px;
+    width: 80%; /* Adjust width as needed */
+    margin: 20px auto; /* Center alignment with margin */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
 }
 
-.pictorial-news-section img{
-  width:100%;
-  max-width: 100%;
-  border-radius:10px;
-  margin-bottom:10px;
+.latest-news-section h2 {
+    margin-top: 0;
 }
 
-.latest-news-article li{
-  margin-bottom: 10px;
+.latest-news-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
 }
 
-.main-article{
-  background-color: white;
-  width:80%;
-  padding:20px;
-  border-radius: 10px;
-  text-align: center;
+.latest-news-section li {
+    padding: 8px 0; /* Space between list items */
+}
+
+/* Style the pictorial news section */
+.pictorial-news-section {
+    background-color: #ffffff; /* Adjust based on image */
+    padding: 20px;
+    width: 80%; /* Adjust width as needed */
+    margin: 20px auto; /* Center alignment with margin */
+    text-align: center;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+https://www.svgrepo.com/show/345223/three-dots-vertical.svg
+.pictorial-news-section img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    margin: 10px; /* Space between images */
 }
